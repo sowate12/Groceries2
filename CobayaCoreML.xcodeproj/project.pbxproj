@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08D1753E21E5F57300ABF40A /* BuahCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D1753D21E5F57300ABF40A /* BuahCell.swift */; };
+		08D7773721E876B60025CC0C /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D7773121E876B50025CC0C /* ImageViewController.swift */; };
+		08D7773821E876B60025CC0C /* TutorialPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D7773221E876B60025CC0C /* TutorialPageViewController.swift */; };
+		08D7773921E876B60025CC0C /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D7773321E876B60025CC0C /* PopUpViewController.swift */; };
+		08D7773A21E876B60025CC0C /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D7773421E876B60025CC0C /* TutorialViewController.swift */; };
+		08D7773D21EF2C640025CC0C /* AppleBagusAppleJelek.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 08D7773C21EF2C640025CC0C /* AppleBagusAppleJelek.mlmodel */; };
+		6B3D55D221E34EF700E91E85 /* Warna.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6B3D55D121E34EF700E91E85 /* Warna.mlmodel */; };
 		991A6017213FCEC100FEAE4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991A6016213FCEC100FEAE4B /* AppDelegate.swift */; };
 		991A6019213FCEC100FEAE4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991A6018213FCEC100FEAE4B /* ViewController.swift */; };
 		991A601C213FCEC100FEAE4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 991A601A213FCEC100FEAE4B /* Main.storyboard */; };
 		991A601F213FCEC100FEAE4B /* CobayaCoreML.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 991A601D213FCEC100FEAE4B /* CobayaCoreML.xcdatamodeld */; };
 		991A6021213FCEC300FEAE4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 991A6020213FCEC300FEAE4B /* Assets.xcassets */; };
 		991A6024213FCEC300FEAE4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 991A6022213FCEC300FEAE4B /* LaunchScreen.storyboard */; };
+		B58FDEA14CFB0BC5F148C750 /* Pods_CobayaCoreML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0383F4B03D809BD50F19F3D5 /* Pods_CobayaCoreML.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0383F4B03D809BD50F19F3D5 /* Pods_CobayaCoreML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CobayaCoreML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08D1753D21E5F57300ABF40A /* BuahCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuahCell.swift; sourceTree = "<group>"; };
+		08D7773121E876B50025CC0C /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		08D7773221E876B60025CC0C /* TutorialPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialPageViewController.swift; sourceTree = "<group>"; };
+		08D7773321E876B60025CC0C /* PopUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		08D7773421E876B60025CC0C /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		08D7773C21EF2C640025CC0C /* AppleBagusAppleJelek.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = AppleBagusAppleJelek.mlmodel; sourceTree = "<group>"; };
+		6B3D55D121E34EF700E91E85 /* Warna.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Warna.mlmodel; sourceTree = "<group>"; };
+		90CB01208168A185E1BC3B64 /* Pods-CobayaCoreML.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CobayaCoreML.release.xcconfig"; path = "Pods/Target Support Files/Pods-CobayaCoreML/Pods-CobayaCoreML.release.xcconfig"; sourceTree = "<group>"; };
 		991A6013213FCEC100FEAE4B /* CobayaCoreML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CobayaCoreML.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		991A6016213FCEC100FEAE4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		991A6018213FCEC100FEAE4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +41,7 @@
 		991A6020213FCEC300FEAE4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		991A6023213FCEC300FEAE4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		991A6025213FCEC300FEAE4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DC25B9C9EDF411828422139 /* Pods-CobayaCoreML.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CobayaCoreML.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CobayaCoreML/Pods-CobayaCoreML.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,60 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B58FDEA14CFB0BC5F148C750 /* Pods_CobayaCoreML.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08D7773E21F1B4F50025CC0C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				08D7773C21EF2C640025CC0C /* AppleBagusAppleJelek.mlmodel */,
+				6B3D55D121E34EF700E91E85 /* Warna.mlmodel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		08D7773F21F1B5040025CC0C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				991A601A213FCEC100FEAE4B /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		08D7774121F1B5180025CC0C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				991A6018213FCEC100FEAE4B /* ViewController.swift */,
+				08D7773321E876B60025CC0C /* PopUpViewController.swift */,
+				08D7773121E876B50025CC0C /* ImageViewController.swift */,
+				08D7773221E876B60025CC0C /* TutorialPageViewController.swift */,
+				08D7773421E876B60025CC0C /* TutorialViewController.swift */,
+				08D1753D21E5F57300ABF40A /* BuahCell.swift */,
+				991A6016213FCEC100FEAE4B /* AppDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		75E56375F50D4D516340BDE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9DC25B9C9EDF411828422139 /* Pods-CobayaCoreML.debug.xcconfig */,
+				90CB01208168A185E1BC3B64 /* Pods-CobayaCoreML.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		991A600A213FCEC100FEAE4B = {
 			isa = PBXGroup;
 			children = (
 				991A6015213FCEC100FEAE4B /* CobayaCoreML */,
 				991A6014213FCEC100FEAE4B /* Products */,
+				75E56375F50D4D516340BDE8 /* Pods */,
+				C2B2B14F5A3732FA04CBF1B3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +117,23 @@
 		991A6015213FCEC100FEAE4B /* CobayaCoreML */ = {
 			isa = PBXGroup;
 			children = (
-				991A6016213FCEC100FEAE4B /* AppDelegate.swift */,
-				991A6018213FCEC100FEAE4B /* ViewController.swift */,
-				991A601A213FCEC100FEAE4B /* Main.storyboard */,
+				08D7773E21F1B4F50025CC0C /* Model */,
+				08D7773F21F1B5040025CC0C /* View */,
+				08D7774121F1B5180025CC0C /* Controller */,
 				991A6020213FCEC300FEAE4B /* Assets.xcassets */,
 				991A6022213FCEC300FEAE4B /* LaunchScreen.storyboard */,
 				991A6025213FCEC300FEAE4B /* Info.plist */,
 				991A601D213FCEC100FEAE4B /* CobayaCoreML.xcdatamodeld */,
 			);
 			path = CobayaCoreML;
+			sourceTree = "<group>";
+		};
+		C2B2B14F5A3732FA04CBF1B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0383F4B03D809BD50F19F3D5 /* Pods_CobayaCoreML.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +143,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 991A6028213FCEC300FEAE4B /* Build configuration list for PBXNativeTarget "CobayaCoreML" */;
 			buildPhases = (
+				AAA2D9B195FEA5B8E1A0C64A /* [CP] Check Pods Manifest.lock */,
 				991A600F213FCEC100FEAE4B /* Sources */,
 				991A6010213FCEC100FEAE4B /* Frameworks */,
 				991A6011213FCEC100FEAE4B /* Resources */,
+				DA4FE3914CA40AACEA12231A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +204,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AAA2D9B195FEA5B8E1A0C64A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CobayaCoreML-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA4FE3914CA40AACEA12231A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CobayaCoreML/Pods-CobayaCoreML-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CountdownView/CountdownView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CountdownView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CobayaCoreML/Pods-CobayaCoreML-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		991A600F213FCEC100FEAE4B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				991A6019213FCEC100FEAE4B /* ViewController.swift in Sources */,
+				6B3D55D221E34EF700E91E85 /* Warna.mlmodel in Sources */,
+				08D7773A21E876B60025CC0C /* TutorialViewController.swift in Sources */,
 				991A601F213FCEC100FEAE4B /* CobayaCoreML.xcdatamodeld in Sources */,
+				08D7773721E876B60025CC0C /* ImageViewController.swift in Sources */,
 				991A6017213FCEC100FEAE4B /* AppDelegate.swift in Sources */,
+				08D7773821E876B60025CC0C /* TutorialPageViewController.swift in Sources */,
+				08D7773921E876B60025CC0C /* PopUpViewController.swift in Sources */,
+				08D1753E21E5F57300ABF40A /* BuahCell.swift in Sources */,
+				08D7773D21EF2C640025CC0C /* AppleBagusAppleJelek.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,15 +399,17 @@
 		};
 		991A6029213FCEC300FEAE4B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DC25B9C9EDF411828422139 /* Pods-CobayaCoreML.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6QYD6FW9B4;
 				INFOPLIST_FILE = CobayaCoreML/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = edu.binus.CobayaCoreML;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.binus.CobayaCoreML.Keenan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -299,15 +418,17 @@
 		};
 		991A602A213FCEC300FEAE4B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90CB01208168A185E1BC3B64 /* Pods-CobayaCoreML.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6QYD6FW9B4;
 				INFOPLIST_FILE = CobayaCoreML/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = edu.binus.CobayaCoreML;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.binus.CobayaCoreML.Keenan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
